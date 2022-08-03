@@ -1,0 +1,14 @@
+const fs = require('fs');
+
+const tebakkimia = fs.readFileSync('./ACTION/STORAGE/X-DATA/result/tebakkimia.json');
+const asahotak = fs.readFileSync('./ACTION/STORAGE/X-DATA/result/asahotak.json');
+const susunkata = fs.readFileSync('./ACTION/STORAGE/X-DATA/result/susunkata.json');
+const tebakkalimat = fs.readFileSync('./ACTION/STORAGE/X-DATA/result/tebakkalimat.json');
+const tekateki = fs.readFileSync('./ACTION/STORAGE/X-DATA/result/tekateki.json');
+const caklontong = fs.readFileSync('./ACTION/STORAGE/X-DATA/result/caklontong.json');
+const tebakbendera = fs.readFileSync('./ACTION/STORAGE/X-DATA/result/tebakbendera.json');
+const tebakanime = fs.readFileSync('./ACTION/STORAGE/X-DATA/result/tebakanime.json');
+const tebakkabupaten = fs.readFileSync('./ACTION/STORAGE/X-DATA/result/tebakkabupaten.json');
+const tebaklagu = fs.readFileSync('./ACTION/STORAGE/X-DATA/result/tebaklagu.json');
+const tebaklirik = fs.readFileSync('./ACTION/STORAGE/X-DATA/result/tebaklirik.json');
+module.exports = { tebakkimia, asahotak, susunkata, tebakkalimat, tekateki, caklontong, tebakbendera, tebakanime, tebakkabupaten, tebaklagu, tebaklirik }
